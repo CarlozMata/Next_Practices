@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "DM Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
+}
+html {
+  width: 100%;
+  scroll-behavior: smooth;
+}
+.Box-Components {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+  background-color: #000000;
+}
+.Card-First {
+  max-width: 1000px;
+  min-width: 400px;
+  background-color: #000000;
+  border-color: #000000;
+}
