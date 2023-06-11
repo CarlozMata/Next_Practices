@@ -160,7 +160,6 @@ const CalculadoraComponent: React.FC = () => {
   return (
     <>
       <section className="calculator">
-        <h2>Calculadora</h2>
         <div className="calculator-box">
           <div className="calculator-royal">
             <div className="calculator-royal-top">

@@ -1,0 +1,22 @@
+.menuContainer {
+  opacity: 1;
+  transition: opacity 0.3s ease;
+}
+
+.menuContainer.menuOpen {
+  opacity: 0.3;
+}
+.menu-modal-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.menu-box {
+  display: flex;
+  justify-content: center;
+}
+.btn-menu {
+  margin-top: 20px;
+}
