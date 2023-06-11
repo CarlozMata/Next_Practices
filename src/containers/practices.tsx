@@ -1,6 +1,8 @@
 import React from "react";
 import { Card } from "antd";
 import "../styles/practices.scss";
+import "../styles/scsComponents/calculadora.scss";
+
 import MenuComponent from "../components/menu";
 
 const PracticesContainer = () => {

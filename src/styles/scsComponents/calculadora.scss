@@ -1,0 +1,200 @@
+/*SECTION CALCULATOR*/
+.calculator {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background-color: transparent;
+  min-width: 400px;
+  max-width: 500px;
+  height: 600px;
+  background-color: red;
+}
+.calculator-box {
+  display: flex;
+  justify-content: center;
+  min-width: 300px;
+}
+.calculator-royal {
+  min-width: 350px;
+  border-radius: 10px 10px 5% 5%;
+  border: 1px solid #949190;
+}
+.calculator-royal-top {
+  min-width: 350px;
+  background-color: black;
+  border-radius: 10px 10px 0% 0%;
+  box-shadow: 10px 2px 5px gray;
+  height: 110px;
+}
+.calculator-etiq {
+  display: flex;
+  justify-content: space-around;
+}
+.p-royal {
+  position: absolute;
+  font-size: 15px;
+  margin: 20px 240px 0 0;
+  color: aliceblue;
+}
+.p-r {
+  position: absolute;
+  font-size: 8px;
+  margin: 20px 185px 0 0;
+  color: aliceblue;
+}
+.p-ce250 {
+  position: absolute;
+  font-size: 10px;
+  margin: 22px 80px 0 0;
+  color: aliceblue;
+}
+.calculator-span {
+  position: absolute;
+  margin: 16px -170px 0px 10px;
+  font-size: 5px;
+  background-color: rgb(68, 68, 68);
+  border-radius: 2px;
+  height: 22px;
+  width: 70px;
+  color: aliceblue;
+}
+.p-12 {
+  position: absolute;
+  margin: 16px 0 0 145px;
+  font-size: 10px;
+  color: aliceblue;
+}
+.p-digit {
+  position: absolute;
+  margin: 28px 0px 1px 135px;
+  width: 30px;
+  font-size: 8px;
+  color: black;
+  background-color: aliceblue;
+  border-radius: 3px;
+}
+.calculator-royal-display {
+  position: absolute;
+  margin-top: 42px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 25px;
+  width: 300px;
+  height: 55px;
+  border-top: 8px solid #c2c2c2;
+  border-bottom: 8px solid rgb(204, 204, 204);
+  border-left: 15px solid rgb(204, 204, 204);
+  border-right: 15px solid rgb(204, 204, 204);
+  background-color: #6a6c61;
+  border-radius: 10px;
+}
+#valor-anterior {
+  margin-top: -5px;
+  max-width: 259px;
+  font-size: 15px;
+  font-weight: bold;
+  height: 25px;
+  font-family: "Chakra Petch", sans-serif;
+  text-align: end;
+  overflow: hidden;
+}
+#valor-actual {
+  max-width: 259px;
+  height: 25px;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: "Chakra Petch", sans-serif;
+  text-align: end;
+  overflow: hidden;
+}
+.calculator div {
+  color: black;
+  font-weight: bold;
+}
+
+.calculator-royal-down {
+  display: flex;
+  justify-content: center;
+  min-width: 350px;
+  height: 300px;
+  background-color: #b6b4b1;
+  box-shadow: 10px -0.5px 5px 0px gray;
+  border-radius: 0px 0px 5% 5%;
+}
+.calculator-left {
+  padding: 10px 0;
+  margin-left: 10px;
+}
+.calculator-right {
+  padding: 10px;
+}
+.calculator-right img {
+  margin: 0px 0px 0px 60px;
+  width: 60px;
+  height: 20px;
+}
+/*Botones*/
+.numero {
+  width: 60px;
+  min-width: 10px;
+  height: 40px;
+  margin-bottom: 8px;
+  background-color: #7a7b75;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  box-shadow: 2px 0px 5px gray;
+  font-size: 30px;
+}
+.numero2 {
+  width: 60px;
+  height: 40px;
+  margin-top: 3px;
+  margin-bottom: 8px;
+  background-color: #894c5c;
+  box-shadow: 2px 0px 5px gray;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+}
+.numero3 {
+  width: 60px;
+  height: 20px;
+  margin-bottom: 8px;
+  background-color: #7c74d2;
+  border-radius: 5px;
+  box-shadow: 2px 0px 5px gray;
+  color: white;
+  font-weight: bold;
+}
+.operador {
+  width: 60px;
+  height: 40px;
+  margin-bottom: 8px;
+  background-color: #38363b;
+  border-radius: 5px;
+  box-shadow: 2px 0px 5px gray;
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+}
+.sum {
+  width: 60px;
+  height: 89px;
+  margin-left: -65px;
+  margin-bottom: 8px;
+  background-color: #38363b;
+  box-shadow: 2px 0px 5px gray;
+  color: white;
+  font-weight: bold;
+}
+.divi {
+  position: absolute;
+  margin: 0px 0px 0px 5px;
+}
+.equal {
+  position: absolute;
+  margin: -49px 0 0px 2px;
+}

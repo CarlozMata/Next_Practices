@@ -1,5 +1,7 @@
 import "antd/es/card/Meta";
-import { Card } from "antd";
+import { Button, Card, Divider, Modal } from "antd";
+import { useState } from "react";
+import CalculadoraComponent from "./calculadora";
 
 const { Meta } = Card;
 const websiteUrl = "https://www.google.com";
@@ -11,33 +13,17 @@ const redirectToCalculadora = () => {
   window.open("/ruta-de-la-calculadora", "_blank");
 };
 const MenuComponent = () => {
+  const [open, setOpen] = useState(false);
   return (
     <>
       <section>
         <Card>
           <div>
-            <h1>portafolio</h1>
-            <Card
-              hoverable
-              style={{ width: 240 }}
-              cover={
-                <img
-                  alt="example"
-                  src="https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png"
-                />
-              }
-            >
-              <Meta
-                title="Europe Street beat"
-                description={
-                  <a href="/ruta-de-la-calculadora">www.instagram.com</a>
-                }
-              />
-            </Card>
+            <h1>Portafolio</h1>
+            <Divider></Divider>
             <Card
               hoverable
               style={{ width: 200 }}
-              onClick={redirectToWebsite}
               cover={
                 <img
                   alt="example"
@@ -45,7 +31,26 @@ const MenuComponent = () => {
                 />
               }
             >
-              <Meta title="Europe Street beat" description="Google" />
+              <h2>Calculadora</h2>
+              <Meta title="" description="Google" />
+              <div>
+                <Button type="primary" onClick={() => setOpen(true)}>
+                  Open Modal
+                </Button>
+                <Modal
+                  title="Modal 1000px width"
+                  centered
+                  open={open}
+                  onOk={() => setOpen(false)}
+                  onCancel={() => setOpen(false)}
+                  width={1000}
+                >
+                  <p>some contents...</p>
+                  <p>some contents...</p>
+                  <p>some contents...</p>
+                  <CalculadoraComponent />
+                </Modal>
+              </div>
             </Card>
           </div>
         </Card>
