@@ -1,13 +1,10 @@
 .menu-component {
-  margin-top: 200px;
 }
 .menuContainer {
   opacity: 1;
   transition: opacity 0.3s ease;
 }
-.menu-row {
-  background-color: red;
-}
+
 .menuContainer.menuOpen {
   opacity: 0.3;
 }
@@ -18,10 +15,17 @@
   align-items: center;
   height: 100%;
 }
+.menu-modal-text {
+  margin-top: 20px;
+  width: 70%;
+}
 .menu-box {
   display: flex;
   justify-content: center;
 }
 .btn-menu {
   margin-top: 20px;
+}
+img {
+  max-width: 800px;
 }
