@@ -1,8 +1,13 @@
+.menu-component {
+  margin-top: 200px;
+}
 .menuContainer {
   opacity: 1;
   transition: opacity 0.3s ease;
 }
-
+.menu-row {
+  background-color: red;
+}
 .menuContainer.menuOpen {
   opacity: 0.3;
 }

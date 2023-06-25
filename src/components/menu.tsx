@@ -3,7 +3,6 @@ import { Button, Card, Col, Divider, Modal, Row } from "antd";
 import { useState } from "react";
 import CalculadoraComponent from "./calculadora";
 import imagenes from "../styles/img/imagenes";
-import Column from "antd/es/table/Column";
 
 const { Meta } = Card;
 
@@ -12,12 +11,12 @@ const MenuComponent = () => {
   return (
     <>
       <section className={open ? "menuContainer menuOpen" : "menuContainer"}>
-        <Card>
+        <Card className="menu-component">
           <div>
             <h1>Portafolio</h1>
             <Divider></Divider>
-            <Col>
-              <Row>
+            <Row gutter={[20, 20]}>
+              <Col xs={12} md={12}>
                 <Card
                   hoverable
                   style={{ width: 200 }}
@@ -62,6 +61,8 @@ const MenuComponent = () => {
                     </Modal>
                   </div>
                 </Card>
+              </Col>
+              <Col>
                 <Card
                   hoverable
                   style={{ width: 200 }}
@@ -94,8 +95,8 @@ const MenuComponent = () => {
                     </Modal>
                   </div>
                 </Card>
-              </Row>
-            </Col>
+              </Col>
+            </Row>
           </div>
         </Card>
       </section>
