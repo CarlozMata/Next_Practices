@@ -1,14 +1,16 @@
 {
   "files": {
-    "main.css": "/Next_Practices/static/css/main.29ebf946.css",
-    "main.js": "/Next_Practices/static/js/main.887bf9c9.js",
+    "main.css": "/Next_Practices/static/css/main.1a806d3a.css",
+    "main.js": "/Next_Practices/static/js/main.a4fa496b.js",
+    "static/media/storeSamsung.png": "/Next_Practices/static/media/storeSamsung.3b38cc4b76ad5fc4ca4a.png",
     "static/media/CalculadoraRoyal.png": "/Next_Practices/static/media/CalculadoraRoyal.2b39e86a65fca84f0312.png",
+    "static/media/cv.png": "/Next_Practices/static/media/cv.4aa50c7c64391f8bb2c4.png",
     "index.html": "/Next_Practices/index.html",
-    "main.29ebf946.css.map": "/Next_Practices/static/css/main.29ebf946.css.map",
-    "main.887bf9c9.js.map": "/Next_Practices/static/js/main.887bf9c9.js.map"
+    "main.1a806d3a.css.map": "/Next_Practices/static/css/main.1a806d3a.css.map",
+    "main.a4fa496b.js.map": "/Next_Practices/static/js/main.a4fa496b.js.map"
   },
   "entrypoints": [
-    "static/css/main.29ebf946.css",
-    "static/js/main.887bf9c9.js"
+    "static/css/main.1a806d3a.css",
+    "static/js/main.a4fa496b.js"
   ]
 }
