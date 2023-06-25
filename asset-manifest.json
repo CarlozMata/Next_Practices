@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/Next_Practices/static/css/main.0211727a.css",
-    "main.js": "/Next_Practices/static/js/main.2788a9b4.js",
+    "main.css": "/Next_Practices/static/css/main.29ebf946.css",
+    "main.js": "/Next_Practices/static/js/main.887bf9c9.js",
     "static/media/CalculadoraRoyal.png": "/Next_Practices/static/media/CalculadoraRoyal.2b39e86a65fca84f0312.png",
     "index.html": "/Next_Practices/index.html",
-    "main.0211727a.css.map": "/Next_Practices/static/css/main.0211727a.css.map",
-    "main.2788a9b4.js.map": "/Next_Practices/static/js/main.2788a9b4.js.map"
+    "main.29ebf946.css.map": "/Next_Practices/static/css/main.29ebf946.css.map",
+    "main.887bf9c9.js.map": "/Next_Practices/static/js/main.887bf9c9.js.map"
   },
   "entrypoints": [
-    "static/css/main.0211727a.css",
-    "static/js/main.2788a9b4.js"
+    "static/css/main.29ebf946.css",
+    "static/js/main.887bf9c9.js"
   ]
 }
